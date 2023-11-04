@@ -1,0 +1,3 @@
+spring.datasource.url=jdbc:mysql://<your-db-url>:<port>/<db-name>
+spring.datasource.username=<db-username>
+spring.datasource.password=<db-password>
