@@ -134,6 +134,11 @@ The frontend of this application is built with React, utilizing an open-source t
 - **State Management**: React hooks such as `useState` and `useRef` are used to manage the application's state and to reference form elements.
 - **Asynchronous Data Handling**: The frontend handles asynchronous API calls, providing feedback such as loading states to enhance user experience.
 - **Error Handling**: Proper error handling is implemented to manage any issues during the image upload and analysis process.
+
+## Configuration
+
+To set up AWS RDS connection configure application.properties in /resources. Check /backend/src/main/resources/application.properties.sample for the format
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
